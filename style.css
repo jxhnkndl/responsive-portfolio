@@ -1,3 +1,5 @@
+/* Body + Inherited Text Styles */
+
 body {
   /* Free SVG Background by SVGBackgrounds.com */
   background-color: #f0f0f0;
@@ -6,4 +8,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Navbar */
+.navbar-brand {
+  background-color: #4AAAA5;
+  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
