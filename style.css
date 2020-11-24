@@ -1,3 +1,9 @@
+/* Universal Resets */
+
+* {
+  box-sizing: border-box;
+}
+
 /* Body + Inherited Text Styles */
 
 body {
@@ -10,7 +16,8 @@ body {
   background-size: cover;
 }
 
-/* Navbar */
+/* Navbar Brand */
+
 .navbar-brand {
   background-color: #4AAAA5;
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
@@ -18,4 +25,11 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   text-decoration: none;
+}
+
+/* Page Headings */
+
+.page-heading {
+  color: #4AAAA5;
+  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
 }
