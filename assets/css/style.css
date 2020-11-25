@@ -33,3 +33,9 @@ body {
   color: #4AAAA5;
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Image Containers */
+
+.img-container {
+  width: 60%;
+}
