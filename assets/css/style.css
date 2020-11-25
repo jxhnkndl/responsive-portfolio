@@ -27,6 +27,12 @@ body {
   text-decoration: none;
 }
 
+/* Main Content Container */
+
+.main-content {
+  margin-bottom: 100px;
+}
+
 /* Page Headings */
 
 .page-heading {
@@ -38,4 +44,10 @@ body {
 
 .img-container {
   width: 60%;
+}
+
+/* Footer */
+
+.footer {
+  border-top: 7px solid #4AAAA5;
 }
