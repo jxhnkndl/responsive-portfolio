@@ -23,13 +23,13 @@ body {
   text-decoration: none;
 }
 
-/* Main Content Container: Adjust for sticky footer */
+/* Main Content Container */
 
 .main-content {
   margin-bottom: 100px;
 }
 
-/* Page Headings */
+/* Page Heading */
 
 .page-heading {
   color: #4AAAA5;
