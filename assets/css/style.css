@@ -15,7 +15,6 @@ body {
 /* Navbar Brand */
 
 .navbar-brand {
-  background-color: #4AAAA5;
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
   font-size: 1.75rem;
   font-weight: 700;
@@ -32,7 +31,6 @@ body {
 /* Section Heading */
 
 .section-heading {
-  color: #4AAAA5;
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -45,7 +43,7 @@ body {
 /* Footer */
 
 .footer {
-  border-top: 7px solid #4AAAA5;
+  border-top: 7px solid;
   font-size: 1.75rem;
 }
 
