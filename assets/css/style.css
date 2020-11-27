@@ -48,3 +48,8 @@ body {
   border-top: 7px solid #4AAAA5;
   font-size: 1.75rem;
 }
+
+.footer-link,
+.footer-link:hover {
+  text-decoration: none;
+}
