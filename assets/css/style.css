@@ -29,14 +29,14 @@ body {
   margin-bottom: 100px;
 }
 
-/* Page Heading */
+/* Section Heading */
 
-.page-heading {
+.section-heading {
   color: #4AAAA5;
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Section: About Me */
+/* Page/Section: About Me */
 
 .about-me-img {
   width: 60%;
