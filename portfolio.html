@@ -33,7 +33,7 @@
       <!-- Navbar Content Container: Constrain nested navbar elements to align with page content  -->
       <div class="container px-0">
         <!-- Navbar Brand -->
-        <a class="navbar-brand text-light" href="/index.html">J.K. Royston</a>
+        <a class="navbar-brand text-light bg-info" href="/index.html">J.K. Royston</a>
         <button class="navbar-toggler" 
                 type="button" 
                 data-toggle="collapse" 
@@ -70,16 +70,32 @@
 
           <!-- Section: Contact-->
           <section>
-            <h1 class="section-heading">Portfolio</h1>
+            <h1 class="section-heading text-info">Contact</h1>
             <hr>
-            
+            <!-- Contact Form -->
+            <form>
+              <div class="form-group">
+                <label for="input-name">Name</label>
+                <input type="text" class="form-control" id="input-name">
+              </div>
+              <div class="form-group">
+                <label for="input-email">Email address</label>
+                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">So we can stay in touch!</small>
+              </div>
+              <div class="form-group">
+                <label for="input-message">Message</label>
+                <textarea class="form-control" id="input-message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-info btn-lg">Submit</button>
+            </form>
           </section>
         </div>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="footer fixed-bottom p-1 text-center bg-secondary">
+    <footer class="footer fixed-bottom p-1 text-center bg-secondary border-info">
       <a href="https://www.linkedin.com/in/johnkendallroyston/" target="_blank" class="text-light footer-link">
         <i class="fab fa-linkedin mr-2"></i>
       </a>
