@@ -47,11 +47,11 @@
         <!-- Collapsable Nav Links -->
         <div class="collapse navbar-collapse mr-lg-2" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./index.html">About</a>
@@ -68,27 +68,77 @@
       <div class="row">
         <div class="col-md-8 bg-light p-4">
 
-          <!-- Section: Contact-->
+          <!-- Section: Portfolio -->
           <section>
-            <h1 class="section-heading text-info">Contact</h1>
+            <h1 class="section-heading text-info">Portfolio</h1>
             <hr>
-            <!-- Contact Form -->
-            <form>
-              <div class="form-group">
-                <label for="input-name">Name</label>
-                <input type="text" class="form-control" id="input-name">
+            <!-- Portfolio Grid: Nested row/column structure to ensure desired content stacking order -->
+            <div class="row">
+              <div class="col-lg-6">
+                <figure class="figure">
+                  <img 
+                    src="./assets/imgs/tbl-fictionfever.jpeg" 
+                    alt="Cover art for Fiction Fever by The Bigger Lights" 
+                    class="img-fluid rounded" 
+                  />
+                  <figcaption class="figure-caption mt-2">
+                    Co-Wrote, Arranged, Performed
+                  </figcaption>
+                </figure>
               </div>
-              <div class="form-group">
-                <label for="input-email">Email address</label>
-                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">So we can stay in touch!</small>
+              <div class="col-lg-6">
+                <figure class="figure">
+                  <img 
+                    src="./assets/imgs/littledeath-lmh.jpeg" 
+                    alt="Cover art for losemyHEAD by littleDEATH" 
+                    class="img-fluid rounded" 
+                  />
+                  <figcaption class="figure-caption mt-2">
+                    Co-Wrote, Arranged, Produced, Mixed
+                  </figcaption>
+                </figure>
               </div>
-              <div class="form-group">
-                <label for="input-message">Message</label>
-                <textarea class="form-control" id="input-message" rows="3"></textarea>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <figure class="figure">
+                  <img 
+                    src="./assets/imgs/irene-byh.jpeg" 
+                    alt="Cover art for Bring You Home by Irene and the Sleepers" 
+                    class="img-fluid rounded" 
+                  />
+                  <figcaption class="figure-caption mt-2">
+                    Produced, Engineered, Mixed
+                  </figcaption>
+                </figure>
               </div>
-              <button type="submit" class="btn btn-info btn-lg">Submit</button>
-            </form>
+              <div class="col-lg-6">
+                <figure class="figure">
+                  <img 
+                    src="./assets/imgs/lish-lp.jpeg" 
+                    alt="Cover art for Night of Pleasures by Lish Starshine" 
+                    class="img-fluid rounded" 
+                  />
+                  <figcaption class="figure-caption mt-2">
+                    Produced, Engineered, Mixed
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <figure class="figure">
+                  <img 
+                    src="./assets/imgs/honeylip-cling.jpeg" 
+                    alt="Cover art for Cling by Honeylip" 
+                    class="img-fluid rounded" 
+                  />
+                  <figcaption class="figure-caption mt-2">
+                    Co-Wrote, Produced, Engineered, Mixed
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
           </section>
         </div>
       </div>
