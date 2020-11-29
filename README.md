@@ -34,7 +34,7 @@ This project required building a fully responsive web portfolio from scratch usi
 
 ## Portfolio Image Attribution
 
-**A small note regarding images used on the Portfolio Page:** Since I don't have full-stack web development projects to use in this portfolio quite yet, I decided to use album art from real world projects I've completed in my current profession. All five of the images used in the porfolio section are directly taken from projects that I founded and fully or partially own. I have included front-facing attributions to the talented designers that worked on the cover art for each project.
+**A small note regarding images used on the portfolio page:** Since I don't have full-stack web development projects to use in this portfolio quite yet, I decided to use album art from real world projects I've completed in my current profession. All five of the images used in the porfolio section are directly taken from projects that I founded and fully or partially own. I have included front-facing attributions to the talented designers that worked on the cover art for each project.
 
 ## Technologies
 
